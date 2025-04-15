@@ -2,11 +2,12 @@
   "name": "ben-whittaker-node-bot",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Ben Whittaker Tech",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.4.0",
+    "@whiskeysockets/baileys": "^6.7.16",
     "dotenv": "^16.0.3",
     "openai": "^4.0.0"
   }
