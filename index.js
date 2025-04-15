@@ -1,4 +1,12 @@
-const { default: makeWASocket, DisconnectReason, useMultiFileAuthState, makeInMemoryStore, fetchLatestBaileysVersion, delay } = require('@whiskeysockets/baileys')
+const { useMultiFileAuthState } = require('@whiskeysockets/baileys')
+const { state, saveCreds } = await useMultiFileAuthState('./auth_info')
+const sock = makeWASocket({
+  auth: state,
+  printQRInTerminal: true,
+  logger: P({ level: 'silent' }),
+  version: (await fetchLatestBaileysVersion()).version
+})
+sock.ev.on('creds.update', saveCreds)
 const fs = require('fs')
 const P = require('pino')
 const dotenv = require('dotenv')
