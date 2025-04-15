@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: ben-whittaker-tech
-    env: node
-    plan: free
-    buildCommand: 'npm install'
-    startCommand: 'node index.js'
