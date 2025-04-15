@@ -1,0 +1,3 @@
+PORT=10000
+BOT_TOKEN=your-whatsapp-api-token
+SESSION_ID=your-session-id
