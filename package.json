@@ -1,11 +1,30 @@
 {
-  "name": "ben-whittaker-node-bot",
+  "name": "ben-whittaker-bot",
   "version": "1.0.0",
+  "description": "Powerful WhatsApp bot by Ben Whittaker Tech",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.20.0",
+    "moment": "^2.29.4",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.2.0",
+    "openai": "^4.20.0",
+    "body-parser": "^1.20.2",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
