@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/omari3-blif/BEN---WHITTAKER/main/ben-whittaker-logo.png" alt="Ben Whittaker Tech Logo" width="300"/>
-</p>
+  <img src="https://raw.githubusercontent.com/omari3-blif/BEN---WHITTAKER/main/Capture+_2025-04-15-12-30-48~2.png" alt="Screenshot" width="300"/>
+</p> 
 
 # Ben Whittaker Tech - Node.js WhatsApp Bot
 
