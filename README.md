@@ -1,28 +1,47 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/omari3-blif/BEN---WHITTAKER/main/ben-whittaker-logo.png" alt="Ben Whittaker Tech Logo" width="300"/>
+</p>
+
 # Ben Whittaker Tech - Node.js WhatsApp Bot
 
-Simple bot starter using Node.js.
-# Ben Whittaker Tech - Node.js WhatsApp Bot
-
-Welcome to **Ben Whittaker Tech**, a powerful and easy-to-deploy WhatsApp bot built with **Node.js**.
-
-This bot lets you automate responses, add custom features, and even integrate with APIs — all from your phone or server.
+A powerful Node.js WhatsApp bot packed with 200+ features including AI, moderation, media tools, games, group management, automation, and more. Designed for advanced tech vibes with performance, customization, and style in mind.
 
 ---
 
 ## Features
 
-- Fast and lightweight WhatsApp bot
-- Built using Node.js and WhatsApp Web API
-- Easy to deploy on **Render** or **Heroku**
-- Auto-replies, command handling, and more
-- Built with love by **Ben Whittaker Tech**
+- ✅ 200+ Built-in Commands (media, moderation, fun, games, AI, etc.)
+- 🤖 Full AI Integration (ChatGPT, DALL·E, AI voice & image)
+- 🎮 Games (TicTacToe, Trivia, Guess the Number, etc.)
+- ⚙️ Group Management (Welcome, Anti-link, Admin Tools)
+- 🧠 Auto AI Reply Mode
+- 📥 Media Downloader (YouTube, TikTok, Instagram, etc.)
+- 🎨 Logo & Text Makers
+- 📊 Voting System (on/off control)
+- 🛡️ Anti-Delete, Anti-Fake, Anti-Virus
+- 🖼️ Screenshot, Fake Typing & Recording
+- ✨ and much more...
 
 ---
 
 ## Installation
 
-1. Clone the repository:
-
+1. Clone the repo
 ```bash
-git clone https://github.com/omari3-blif/BEN---WHITTAKER---NODE---BOT.git
-cd BEN---WHITTAKER---NODE---BOT
+git clone https://github.com/omari3-blif/BEN---WHITTAKER.git
+cd BEN---WHITTAKER
+
+## Install dependence
+npm install
+cp .env.sample .env
+node index.js
+
+## DEPLOYMENT
+*HEROKU*
+Procfile
+worker: node index.js
+
+*RANDER*
+randers.yaml
+For auto deployment 🥊
+
